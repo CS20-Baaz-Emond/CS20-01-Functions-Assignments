@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>CS10 Grade Calculator</title>
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>CS10 Grade Calculator</h1>
+
+    <hr />
+
+    <p>Computing Science is a part of Career and Technology Studies (CTS).</p>
+    <p>
+      Your grade for Computing Science 10 will be the
+      <strong>average</strong> of your grades on five individual modules.
+    </p>
+    <hr />
+
+    <h2>Enter Grades</h2>
+
+    Client-Side Scripting 1:
+    <p><input id="css1-in" type="number" />%, which is a<span id="css1-letter-grade"> ___</span></p>
+    Structured Programming 1:
+    <p><input id="sp1-in" type="number" />%, which is a<span id="sp1-letter-grade"> ___</span></p>
+    Structured Programming 2
+    <p><input id="sp2-in" type="number" />%, which is a<span id="sp2-letter-grade"> ____</span></p></p>
+    Client-Side Programming 2:
+    <p><input id="css2-in" type="number" />%, which is a<span id="css2-letter-grade"> ____</span></p>
+    Project A:
+    <p><input id="pa-in" type="number" />%, which is a<span id="pa-letter-grade"> ____</span></p>
+
+    <button id="btn"><strong id="button">Calculate CS10 Grade</strong></button>
+
+    <hr />
+
+    <h2 class="luminance">Final CS10 Grade: <span id="output">___</span>%, which is a <span id="final-letter-grade"> ___</span></h2>
+  </body>
+</html>
